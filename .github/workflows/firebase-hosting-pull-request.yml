@@ -8,8 +8,26 @@ jobs:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: npm run generate
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+            cache: pnpm
+            node-version: 18
+            registry-url: https://registry.npmjs.org/
+
+      - name: Install dependencies
+        shell: bash
+        run: pnpm i
+
+      - name: Build
+        run: pnpm run generate
+
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
