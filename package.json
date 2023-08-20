@@ -7,14 +7,15 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "prepare": "husky install",
+    "prepare": "is-ci | husky install",
     "deploy": "firebase deploy --only hosting"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.3",
-    "nuxt": "^3.6.5",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "is-ci": "^3.0.1",
+    "nuxt": "^3.6.5"
   },
   "packageManager": "pnpm@8.6.2"
 }
