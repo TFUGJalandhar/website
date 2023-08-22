@@ -5,17 +5,16 @@
     <thead>
       <tr>
         <th class="px-4 py-2">Name</th>
-        <th class="px-4 py-2">Description</th>
+        <th class="px-4 py-2">Location</th>
       </tr>
     </thead>
     <tbody>
       <tr v-for="org in data" :key="org.id">
         <td class="border px-4 py-2 text-center">{{ org.name }}</td>
-        <td class="border px-4 py-2 text-center">{{ org.description }}</td>
+        <td class="border px-4 py-2 text-center">{{ org.location }}</td>
       </tr>
     </tbody>
   </table>
-
 </template>
 
 <script setup>

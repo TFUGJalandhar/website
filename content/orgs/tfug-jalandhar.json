@@ -1,21 +1,18 @@
 {
-    "name": "",
-    "location": "",
-    "logo": "",
-    "banner": "",
+    "name": "TFUG Jalandhar",
+    "location": "LPU Jalandhar",
+    "logo": "https://www.tensorflow.org/static/community/tf-everywhere/images/tf-everywhere-logo-only_72.png",
+    "banner": "/img/1687445678925.jpg",
     "organizers": [
         {
-            "name": "",
-            "profile_img": "",
-            "designation": ""
+            "name": "Suraj Mani",
+            "profile_img": "https://media.licdn.com/dms/image/D5603AQHmNnGP3Kq3dQ/profile-displayphoto-shrink_200_200/0/1690382307729?e=1698278400&v=beta&t=bpFk7lYRI1A9wmhZcigeAnn77MCIepSYy5TaH6Ve21M",
+            "designation": "Organizer"
         }, 
         {
-            "name": "",
-            "profile_img": "",
-            "designation": ""
-        },
-        {
-            
+            "name": "Prajwal Kumbar",
+            "profile_img": "https://media.licdn.com/dms/image/C4E03AQEI5xv6XRW_Qw/profile-displayphoto-shrink_200_200/0/1607679655405?e=1698278400&v=beta&t=_7CITmaI3lKb4fxbLj1K1H5DNi2rvaoH9AqZV4bc40g",
+            "designation": "Organizer"
         }
     ]
 }
