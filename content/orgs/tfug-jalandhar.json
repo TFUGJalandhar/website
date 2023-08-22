@@ -1,4 +1,21 @@
 {
-    "name": "TFUG Jalandhar",
-    "description": "TensorFlow UserGroup Jalandhar"
+    "name": "",
+    "location": "",
+    "logo": "",
+    "banner": "",
+    "organizers": [
+        {
+            "name": "",
+            "profile_img": "",
+            "designation": ""
+        }, 
+        {
+            "name": "",
+            "profile_img": "",
+            "designation": ""
+        },
+        {
+            
+        }
+    ]
 }
