@@ -5,7 +5,8 @@
 
 # Tech Used 
 Nuxt js ([Nuxt js official document](https://nuxt.com/docs/getting-started/introduction))
-TailwindCSS ( [TailwindCSS official documents](https://tailwindcss.com/docs/installation))
+\TailwindCSS ( [TailwindCSS official documents](https://tailwindcss.com/docs/installation))
+
 
 
 ##  Setup
@@ -22,4 +23,4 @@ pnpm install
 # yarn
 yarn install
 ```
-.... Upadating more steps soon
+.... ......Upadating more information soon............
