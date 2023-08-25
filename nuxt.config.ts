@@ -2,7 +2,15 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@nuxt/content"
+    "@nuxt/content",
+    [
+      "@nuxtjs/google-fonts",
+      {
+        families: {
+          Poppins: [400, 500, 600, 700, 800, 900],
+        },
+      },
+    ],
   ],
   css: ["~/assets/css/main.css"],
   postcss: {
@@ -11,7 +19,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  content: {
-    
-  }
+  content: {},
 });
