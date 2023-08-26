@@ -1,7 +1,7 @@
 <template>
   <header class="h-[60vh] grid grid-cols-12 p-5 relative w-full max-w-screen">
     <div class="col-span-7 p-16 flex flex-col items-start py-4 gap-5">
-      <h1 class="text-5xl mt-10 text-danger-default font-bold">
+      <h1 class="text-5xl mt-5 text-danger-default font-bold">
         Keras Community Day
         <span
           class="text-4xl py-3 px-0 font-normal text-black-default/70 font-center w-full text-end"
