@@ -8,9 +8,7 @@
           >
             K
           </div>
-          <p class="text-xl text-danger-default font-medium">
-            Keras Community Day
-          </p>
+          <p class="text-2xl text-black-default/80 font-medium">KCD India</p>
         </NuxtLink>
         <ul class="inline-flex h-full text-base items-center">
           <li class="gap-2 h-20">
